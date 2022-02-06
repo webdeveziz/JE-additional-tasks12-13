@@ -6,9 +6,9 @@ class CarService {
     till: '20:00',
   }
 
-  constructor(name, workingHours = CarService.DefaultWorkingHours) { // Тут понимаю бессмыслица, но я написал как было написано в условии!
+  constructor(name, workingHours = CarService.DefaultWorkingHours) { 
     this.name = name
-    this.workingHours = workingHours || CarService.DefaultWorkingHours
+    this.workingHours = workingHours || CarService.DefaultWorkingHours // Тут понимаю бессмыслица, но я написал как было написано в условии!
   }
 
   repairCar(carName) {
