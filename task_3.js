@@ -8,7 +8,7 @@ class CarService {
 
   constructor(name, workingHours = CarService.DefaultWorkingHours) { 
     this.name = name
-    this.workingHours = workingHours || CarService.DefaultWorkingHours // Тут понимаю бессмыслица, но я написал как было написано в условии!
+    this.workingHours = workingHours 
   }
 
   repairCar(carName) {
