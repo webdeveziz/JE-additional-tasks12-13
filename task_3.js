@@ -6,7 +6,7 @@ class CarService {
     till: '20:00',
   }
 
-  constructor(name, workingHours = CarService.DefaultWorkingHours) {
+  constructor(name, workingHours = CarService.DefaultWorkingHours) { // Тут понимаю бессмыслица, но я написал как было написано в условии!
     this.name = name
     this.workingHours = workingHours || CarService.DefaultWorkingHours
   }
